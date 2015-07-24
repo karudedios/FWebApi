@@ -1,4 +1,4 @@
-﻿namespace FWebApi
+﻿namespace FSharpApp.Api
 
 open Nancy
 

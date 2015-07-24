@@ -1,8 +1,6 @@
-﻿namespace FWebApi
+﻿namespace FSharpApp.Api
 
-type Type = { Success: bool;  Name: string }
-type RegularResponse = { content: string }
-
+open FSharpApp.Core
 open Nancy
 open Nancy.Responses.Negotiation
 
@@ -12,4 +10,4 @@ type IndexModule() as x =
     do x.Get.["/"] <- fun _ ->
       box(x.Negotiate
           |> Negotiator.WithContentType "application/json"
-          |> Negotiator.WithModel { content = "Hello Paul, from F#!" })
+          |> Negotiator.WithModel (User.create 1 "cdedios"  "Carlos"  "De Dios"))
