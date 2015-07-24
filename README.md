@@ -13,4 +13,4 @@ PR's (for whichever reason you'd like to PR a test repository) are welcome.
 6. run `gulp`
 
 There you go!
-Not clear enough? Try directly from the official (ReactJs Starter Kit instructions!)[https://github.com/kriasoft/react-starter-kit#readme], in case I missed something.
+Not clear enough? Try directly from the official [ReactJs Starter Kit instructions!](https://github.com/kriasoft/react-starter-kit#readme), in case I missed something.
