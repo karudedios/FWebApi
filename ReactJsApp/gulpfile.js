@@ -1,7 +1,7 @@
 /*!
- * Facebook React Starter Kit | https://github.com/kriasoft/react-starter-kit
- * Copyright (c) KriaSoft, LLC. All rights reserved. See LICENSE.txt
- */
+  * Facebook React Starter Kit | https://github.com/kriasoft/react-starter-kit
+  * Copyright (c) KriaSoft, LLC. All rights reserved. See LICENSE.txt
+  */
 
 'use strict';
 
@@ -149,19 +149,14 @@ gulp.task('build', ['clean'], function (cb) {
 
 // Launch a lightweight HTTP Server
 gulp.task('serve', function (cb) {
-
   watch = true;
 
   runSequence('build', function () {
     browserSync({
-      notify: false,
-      // Customize the BrowserSync console logging prefix
-      logPrefix: 'RSK',
-      // Run as an https by uncommenting 'https: true'
-      // Note: this uses an unsigned certificate which on first access
-      //       will present a certificate warning in the browser.
-      // https: true,
-      server: DEST
+        open: false,
+        notify: false,
+        logPrefix: 'RSK',
+        server: DEST
     });
 
     gulp.watch(src.assets, ['assets']);
@@ -171,6 +166,7 @@ gulp.task('serve', function (cb) {
     gulp.watch(DEST + '/**/*.*', function (file) {
       browserSync.reload(path.relative(__dirname, file.path));
     });
+
     cb();
   });
 });
