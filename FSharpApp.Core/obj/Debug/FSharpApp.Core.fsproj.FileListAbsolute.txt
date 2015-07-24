@@ -1,8 +1,3 @@
-C:\Users\Karu\documents\visual studio 2013\Projects\FWebApi\FSharp.Core\bin\Debug\FSharp.Core.XML
-C:\Users\Karu\documents\visual studio 2013\Projects\FWebApi\FSharp.Core\bin\Debug\FSharp.Core.dll
-C:\Users\Karu\documents\visual studio 2013\Projects\FWebApi\FSharp.Core\bin\Debug\FSharp.Core.pdb
-C:\Users\Karu\documents\visual studio 2013\Projects\FWebApi\FSharp.Core\obj\Debug\FSharp.Core.dll
-C:\Users\Karu\documents\visual studio 2013\Projects\FWebApi\FSharp.Core\obj\Debug\FSharp.Core.pdb
 C:\Users\Karu\Documents\Visual Studio 2013\Projects\FWebApi\FSharpApp.Core\bin\Debug\FSharp.Core.XML
 C:\Users\Karu\Documents\Visual Studio 2013\Projects\FWebApi\FSharpApp.Core\bin\Debug\FSharpApp.Core.dll
 C:\Users\Karu\Documents\Visual Studio 2013\Projects\FWebApi\FSharpApp.Core\bin\Debug\FSharpApp.Core.pdb

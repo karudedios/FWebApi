@@ -1,17 +1,13 @@
 ﻿namespace FSharpApp.Core
 
-type UserType (userId: int option, username: string option, name: string option, lastName: string option) =
-  let mutable _userId: int option = userId
-  let mutable _username: string option = username
-  let mutable _name: string option = name
-  let mutable _lastName: string option = lastName
-
-  member this.UserId
-    with get() = _userId
-    and set(value) = _userId <- value
+type UserType (userId: int, username: string, name: string, lastName: string) =
+  member this.UserId = userId
+  member this.Username = username
+  member this.Name = name
+  member this.LastName = lastName
 
 module User =
-  let u = new UserType(Some 1, Some "admin", Some "Admin", Some "Admin")
+  let AdminUser = new UserType(1, "admin", "Admin", "Admin")
 
   let create userId username name lastName =
-    new UserType(Some userId, Some username, Some name, Some lastName)
+    new UserType(userId, username, name, lastName)

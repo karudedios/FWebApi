@@ -10,4 +10,4 @@ type IndexModule() as x =
     do x.Get.["/"] <- fun _ ->
       box(x.Negotiate
           |> Negotiator.WithContentType "application/json"
-          |> Negotiator.WithModel (User.create 1 "cdedios"  "Carlos"  "De Dios"))
+          |> Negotiator.WithModel (User.create 1 "cdedios" "Carlos" "De Dios"))

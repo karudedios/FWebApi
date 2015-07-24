@@ -1,8 +1,0 @@
-C:\Users\Karu\documents\visual studio 2013\Projects\FWebApi\FWebApi\bin\FWebApi.dll
-C:\Users\Karu\documents\visual studio 2013\Projects\FWebApi\FWebApi\bin\FWebApi.pdb
-C:\Users\Karu\documents\visual studio 2013\Projects\FWebApi\FWebApi\bin\FSharp.Core.dll
-C:\Users\Karu\documents\visual studio 2013\Projects\FWebApi\FWebApi\bin\Nancy.dll
-C:\Users\Karu\documents\visual studio 2013\Projects\FWebApi\FWebApi\bin\Nancy.Hosting.Aspnet.dll
-C:\Users\Karu\documents\visual studio 2013\Projects\FWebApi\FWebApi\bin\FSharp.Core.xml
-C:\Users\Karu\documents\visual studio 2013\Projects\FWebApi\FWebApi\obj\x86\Debug\FWebApi.dll
-C:\Users\Karu\documents\visual studio 2013\Projects\FWebApi\FWebApi\obj\x86\Debug\FWebApi.pdb
