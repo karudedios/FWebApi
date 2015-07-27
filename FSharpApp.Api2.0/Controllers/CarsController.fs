@@ -8,7 +8,7 @@ open FSharpApp.Api2._0.Models
 open FSharpApp.Core
 
 type Failure = { Message: string; StatusCode: int }
-type Response(content: 'a) =
+type Response<'a>(content: 'a) =
   member this.content = content
 
 /// Retrieves values.
@@ -22,7 +22,7 @@ type CarsController() =
 
       match car with
       | None -> Either.Left { Message = "Could not find car"; StatusCode = 404 }
-      | Some car -> Either.Right car
+      | Some car -> Either.Right (new Response<Car>(car))
 
     member x.Get(make: string) =
       values
