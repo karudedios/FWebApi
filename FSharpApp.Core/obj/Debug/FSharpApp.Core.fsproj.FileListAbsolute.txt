@@ -1,0 +1,12 @@
+C:\Users\Karu\Documents\Visual Studio 2013\Projects\FWebApi\FSharpApp.Core\bin\Debug\FSharp.Core.XML
+C:\Users\Karu\Documents\Visual Studio 2013\Projects\FWebApi\FSharpApp.Core\bin\Debug\FSharpApp.Core.dll
+C:\Users\Karu\Documents\Visual Studio 2013\Projects\FWebApi\FSharpApp.Core\bin\Debug\FSharpApp.Core.pdb
+C:\Users\Karu\Documents\Visual Studio 2013\Projects\FWebApi\FSharpApp.Core\bin\Debug\FSharp.Core.dll
+C:\Users\Karu\Documents\Visual Studio 2013\Projects\FWebApi\FSharpApp.Core\obj\Debug\FSharpApp.Core.dll
+C:\Users\Karu\Documents\Visual Studio 2013\Projects\FWebApi\FSharpApp.Core\obj\Debug\FSharpApp.Core.pdb
+C:\Users\cdedios\Documents\FWebApi\FSharpApp.Core\bin\Debug\FSharp.Core.XML
+C:\Users\cdedios\Documents\FWebApi\FSharpApp.Core\bin\Debug\FSharpApp.Core.dll
+C:\Users\cdedios\Documents\FWebApi\FSharpApp.Core\bin\Debug\FSharpApp.Core.pdb
+C:\Users\cdedios\Documents\FWebApi\FSharpApp.Core\bin\Debug\FSharp.Core.dll
+C:\Users\cdedios\Documents\FWebApi\FSharpApp.Core\obj\Debug\FSharpApp.Core.dll
+C:\Users\cdedios\Documents\FWebApi\FSharpApp.Core\obj\Debug\FSharpApp.Core.pdb

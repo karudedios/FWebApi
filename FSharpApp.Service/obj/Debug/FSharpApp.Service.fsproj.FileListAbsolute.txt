@@ -1,0 +1,10 @@
+C:\Users\cdedios\Documents\FWebApi\FSharpApp.Service\bin\Debug\FSharpApp.Service.XML
+C:\Users\cdedios\Documents\FWebApi\FSharpApp.Service\bin\Debug\FSharpApp.Service.dll
+C:\Users\cdedios\Documents\FWebApi\FSharpApp.Service\bin\Debug\FSharpApp.Service.pdb
+C:\Users\cdedios\Documents\FWebApi\FSharpApp.Service\bin\Debug\FSharp.Core.dll
+C:\Users\cdedios\Documents\FWebApi\FSharpApp.Service\bin\Debug\FSharpApp.Core.dll
+C:\Users\cdedios\Documents\FWebApi\FSharpApp.Service\bin\Debug\FSharpApp.Core.pdb
+C:\Users\cdedios\Documents\FWebApi\FSharpApp.Service\bin\Debug\FSharp.Core.xml
+C:\Users\cdedios\Documents\FWebApi\FSharpApp.Service\obj\Debug\FSharpApp.Service.fsprojResolveAssemblyReference.cache
+C:\Users\cdedios\Documents\FWebApi\FSharpApp.Service\obj\Debug\FSharpApp.Service.dll
+C:\Users\cdedios\Documents\FWebApi\FSharpApp.Service\obj\Debug\FSharpApp.Service.pdb
