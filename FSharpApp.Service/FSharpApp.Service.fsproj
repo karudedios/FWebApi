@@ -43,6 +43,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="UserService.fs" />
+    <Compile Include="CarService.fs" />
     <None Include="Script.fsx" />
   </ItemGroup>
   <ItemGroup>

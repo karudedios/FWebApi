@@ -110,6 +110,8 @@
     </VisualStudio>
   </ProjectExtensions>
   <ItemGroup>
+    <Compile Include="UserController.fs" />
+    <Compile Include="CarController.fs" />
     <Compile Include="AssemblyInfo.fs" />
     <Content Include="Web.config" />
     <Content Include="Global.asax" />
@@ -153,6 +155,11 @@
     <ProjectReference Include="..\FSharpApp.Core\FSharpApp.Core.fsproj">
       <Name>FSharpApp.Core</Name>
       <Project>{b8ebec10-366d-49d3-bb56-6c7caf636493}</Project>
+      <Private>True</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\FSharpApp.Service\FSharpApp.Service.fsproj">
+      <Name>FSharpApp.Service</Name>
+      <Project>{5486d817-85bd-40d3-999b-7ff0794f6c24}</Project>
       <Private>True</Private>
     </ProjectReference>
   </ItemGroup>
