@@ -43,8 +43,10 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Script.fsx" />
-    <Compile Include="Domain/User.fs" />
     <Compile Include="Either.fs" />
+    <Compile Include="Domain\User.fs" />
+    <Compile Include="Domain\Car.fs" />
+    <Compile Include="Domain\Failure.fs" />
   </ItemGroup>
   <PropertyGroup>
     <MinimumVisualStudioVersion Condition="'$(MinimumVisualStudioVersion)' == ''">11</MinimumVisualStudioVersion>

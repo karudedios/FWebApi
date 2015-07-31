@@ -5,7 +5,9 @@ open FSharpApp.Core
 module UserService =
   let mutable private users = List.empty<User>
 
-  let create username name lastName =
+  let GetAll() = users
+
+  let Create username name lastName =
     let currentId =
       users
         |> List.map (fun x -> x.UserId)
@@ -15,10 +17,12 @@ module UserService =
     users <- user :: users
     user
 
-  let find userId =
-    users |> List.find (fun x -> x.UserId = userId)
+  let Find predicate =
+    match List.tryFind predicate users with
+    | None -> Either.Left { Message = "Could not find user"; StatusCode = 404 }
+    | Some user -> Either.Right user
 
-  let delete userId =
+  let Delete userId =
     users <- users |> List.filter (fun x -> x.UserId <> userId)
 
-  let length = users.Length
+  let Length = users.Length
