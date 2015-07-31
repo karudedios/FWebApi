@@ -9,7 +9,7 @@ Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "FSharpApp.Core", "FSharpApp
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "FSharpApp.Service", "FSharpApp.Service\FSharpApp.Service.fsproj", "{5486D817-85BD-40D3-999B-7FF0794F6C24}"
 EndProject
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "FSharpApp.Api2._0", "FSharpApp.Api2.0\FSharpApp.Api2._0.fsproj", "{287B3509-8647-4D45-BE4E-CF33FEECFA7B}"
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "FSharpApp.Api", "FSharpApp.Api2.0\FSharpApp.Api.fsproj", "{287B3509-8647-4D45-BE4E-CF33FEECFA7B}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{80B536A7-CE10-4ECB-B2CE-164789325614}"
 	ProjectSection(SolutionItems) = preProject

@@ -1,4 +1,4 @@
-namespace FSharpApp.Api2._0
+namespace FSharpApp.Api
 
 open System
 open System.Net.Http

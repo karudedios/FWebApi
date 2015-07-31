@@ -7,10 +7,12 @@ module CarService =
 
   let GetAll () = cars
 
-  let Create make model =
-    let car = new Car(make, model)
-    cars <- car :: cars
-    car
+  let Create car =
+    try 
+      cars <- car :: cars
+      Either.Right car
+    with
+      ex -> Either.Left { Message = "Could not create car"; StatusCode = 500 }
 
   let Find predicate =
     match List.tryFind predicate cars with

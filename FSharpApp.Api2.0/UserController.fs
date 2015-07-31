@@ -1,5 +1,6 @@
-namespace FSharpApp.Api2._0.Controllers
+namespace FSharpApp.Api.Controllers
 
+open FSharpApp.Api
 open FSharpApp.Core
 open FSharpApp.Service
 open System.Web.Http

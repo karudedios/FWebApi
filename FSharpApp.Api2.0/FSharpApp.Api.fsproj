@@ -12,12 +12,12 @@
     <OutputType>Library</OutputType>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <RootNamespace>FSharpApp.Api2._0</RootNamespace>
-    <AssemblyName>FSharpApp.Api2._0</AssemblyName>
+    <AssemblyName>FSharpApp.Api</AssemblyName>
     <UseIISExpress>true</UseIISExpress>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <TargetFrameworkProfile />
     <WebGreaseLibPath>$(SolutionDir)\packages\WebGrease.1.5.2\lib</WebGreaseLibPath>
-    <Name>FSharpApp.Api2._0</Name>
+    <Name>FSharpApp.Api</Name>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -110,8 +110,6 @@
     </VisualStudio>
   </ProjectExtensions>
   <ItemGroup>
-    <Compile Include="UserController.fs" />
-    <Compile Include="CarController.fs" />
     <Compile Include="AssemblyInfo.fs" />
     <Content Include="Web.config" />
     <Content Include="Global.asax" />
@@ -119,6 +117,9 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <None Include="packages.config" />
+    <Compile Include="Helpers.fs" />
+    <Compile Include="UserController.fs" />
+    <Compile Include="CarController.fs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Newtonsoft.Json">
