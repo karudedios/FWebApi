@@ -110,16 +110,16 @@
     </VisualStudio>
   </ProjectExtensions>
   <ItemGroup>
+    <None Include="packages.config" />
     <Compile Include="AssemblyInfo.fs" />
-    <Content Include="Web.config" />
+    <Compile Include="UserController.fs" />
+    <Compile Include="CarController.fs" />
+    <Compile Include="Helpers.fs" />
     <Content Include="Global.asax" />
     <Compile Include="Global.asax.fs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <None Include="packages.config" />
-    <Compile Include="Helpers.fs" />
-    <Compile Include="UserController.fs" />
-    <Compile Include="CarController.fs" />
+    <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Newtonsoft.Json">
